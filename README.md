@@ -2,7 +2,7 @@
 Alfresco Patch to High CPU consumption when parsing PDF files
 ================================================
 
-Described at issue ![ALF-21970](https://issues.alfresco.com/jira/browse/ALF-21970)
+Described at issue [ALF-21970](https://issues.alfresco.com/jira/browse/ALF-21970)
 
 PDF content extractors causing high CPU/memory with some PDFs.
 
@@ -42,7 +42,7 @@ java.lang.Thread.State: RUNNABLE
  at org.alfresco.repo.web.scripts.solr.NodeContentGet.execute(NodeContentGet.java:206)
  ```
 
-Sample PDF to produce this scenario is provided at [Tika-Issue-Full-CPU.PDF](https://github.com/keensoft/alf-21970-repo)
+Sample PDF to produce this scenario is provided at [Tika-Issue-Full-CPU.PDF](https://github.com/keensoft/alf-21970-repo/blob/master/alf-21970-repo/src/test/resources/Tika-Issue-Full-CPU.PDF)
 
 **License**
 The patch is licensed under the [LGPL v3.0](http://www.gnu.org/licenses/lgpl-3.0.html). 
