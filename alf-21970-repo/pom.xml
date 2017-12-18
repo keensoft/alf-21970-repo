@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+    <parent>
+        <groupId>org.alfresco</groupId>
+        <artifactId>alfresco-super-pom</artifactId>
+        <version>6</version>
+    </parent>
+    	
+	<groupId>es.keensoft</groupId>
+	<artifactId>alf-21970-repo</artifactId>
+	<packaging>jar</packaging>
+	<version>1.0.0</version>
+	<name>alf-21970-repo</name>
+	
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.tika</groupId>
+            <artifactId>tika-parsers</artifactId>
+            <version>1.6-20160727-alfresco-patched</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+	
+</project>
